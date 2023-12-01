@@ -1,0 +1,56 @@
+/* Add your styles here */
+table{
+  border:5px solid white;
+  border-collapse:collapse;
+  border-color: #158749 ;
+  background-image: url(https://images.pexels.com/photos/4498467/pexels-photo-4498467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)  ;
+  margin: auto;
+  box-shadow: 10px 10px 10px #158749;
+  
+  
+}
+td{
+  width: 50px;
+  height:50px;
+  border:1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  text-align: center;
+  text-shadow:2px 2px 4px #158749 ;
+  font-size: 125%;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif ;
+  
+  
+
+}
+
+td:nth-of-type(3n) {
+   border-right: 5px solid white ;
+   border-right-color:#158749;
+   box-shadow: rgba(1, 1, 1, 0.555) 0px 5px 15px; 
+   margin:0px;
+}
+tr:nth-of-type(3n) td {
+   border-bottom: 5px solid white ;
+   border-bottom-color:#158749 ;
+   box-shadow: rgba(1, 1, 1, 0.555) 0px 5px 15px; 
+   margin:0px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family:Courier, monospace  ;
+  text-shadow: 2px 2px 4px #158749 ;
+
+}
+
+body{
+  background-image: url(https://images.pexels.com/photos/4598190/pexels-photo-4598190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  
+  background-size: contain;
+  background-repeat: repeat;
+
+}
+
+
